@@ -1,1 +1,27 @@
-/* .
+h2{
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end; 
+}
+
+.img_footer {
+    width: 5%;
+    max-width: 0.5rem;
+    position:relative;
+}
