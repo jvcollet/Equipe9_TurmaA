@@ -21,7 +21,8 @@ footer {
 }
 
 .img_footer {
-    width: 5%;
-    max-width: 0.5rem;
+    width: 20%;
+    max-width: 28rem;
+    max-height: 28rem;
     position:relative;
 }
