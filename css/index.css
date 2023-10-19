@@ -5,9 +5,11 @@
     border-radius: 10rem;
 }
 .figure_index {
-    position: fixed;
-    top: 30%;
-    left: 50%;
+    position: relative;
+    margin-top: 70%;
+    margin-bottom: 20%;
+    top: 80%;
+    left: 60%;
     transform: translate(-50%, -50%);
   }
 
@@ -17,7 +19,7 @@
     height: 20rem;
     background-color: rgb(151, 151, 151); 
     border-radius: 7rem; 
-    position: fixed;
+    position: relative;
     top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -27,3 +29,9 @@
     font-size: 5rem;
     text-decoration: none;
   }
+
+section{
+  justify-content: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
