@@ -10,8 +10,7 @@ header{
 
 h1{
     position:absolute;
-    left:20%;
-    transform: translateX(-50%);
+    left:10%;
     font-size: 2rem;
 }
 
@@ -22,14 +21,14 @@ h1{
     position:relative;
     right:0%;
 }
-main{
 
+main{
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     position: relative;
-    margin-top: 4rem;
+    height: 50rem;
 }
 
 h2{
@@ -37,7 +36,13 @@ h2{
     font-size: 2rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
 }
+div{
+    flex:1
+}
+
 
 .a_inicio1 {
     font-size: 2rem;
@@ -47,6 +52,7 @@ h2{
     height: 5rem;
     text-decoration: none;
 }
+
 
 footer {
     display: flex;
