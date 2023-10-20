@@ -69,6 +69,8 @@ footer {
     align-items:center;
     border-top: 0.1rem solid black;
     margin-top: 2rem;
+    position:fixed;
+    bottom: 0;
 }
 
 .img_footer {
@@ -85,3 +87,25 @@ footer {
     color:inherit;
 }
 
+.borda_pratos{
+    margin-top:5%;
+    position: relative;
+    display:flex;
+    flex-direction: row;
+    width: 70%;
+    min-height: 8rem;
+    border:0.2rem solid black;
+    align-items: center;
+}
+
+.prato{
+    display:flex;
+    flex-direction: column;
+}
+
+.imagem_prato{
+    position:relative;
+    left:20%;
+    min-height: 6rem;
+    min-width: 6rem;
+}
