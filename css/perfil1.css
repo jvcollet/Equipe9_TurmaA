@@ -8,20 +8,6 @@ header{
     margin-bottom: 1rem;
 }
 
-h1{
-    position:absolute;
-    left:20%;
-    transform: translateX(-50%);
-    font-size: 2rem;
-}
-
-.img_header {
-    width: 20%;
-    max-width: 33rem;
-    max-height: 33rem;
-    position:relative;
-    right:0%;
-}
 section{
     display: flex;
     flex-direction: column;
@@ -31,7 +17,31 @@ section{
     
 }
 
+.img_header {
+    width: 20%;
+    max-width: 33rem;
+    max-height: 33rem;
+    position:relative;
+    right:0%;
+}
+
+h1{
+    position:absolute;
+    left:20%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+}
+
 h2{
+    position:relative;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+h3{
     position:relative;
     font-size: 2rem;
     margin-top: 2rem;
@@ -40,7 +50,7 @@ h2{
     justify-content: center;
 }
 
-h3{
+h4{
     position:relative;
     font-size: 1.5rem;
     margin-top: 2rem;
@@ -105,7 +115,24 @@ footer {
 
 .imagem_prato{
     position:relative;
+    left: 1rem;
+    min-height: 2rem;
+    min-width: 2rem;
+    max-width: 10rem;
+    max-height: 7rem;
+}
+
+.descricao_prato{
+    position:relative;
     left:20%;
-    min-height: 6rem;
-    min-width: 6rem;
+}
+
+.nome_prato{
+    position:relative;
+    left:10%;
+}
+
+.link{
+    text-decoration: none;
+    color:inherit;
 }
