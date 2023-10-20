@@ -7,22 +7,27 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/perfil2.css">
         <header>
-            <h1>Perfil</h1>
+            <h1>Prato Facil</h1>
             <img class="img_header" src="imagens/logo.png" alt="logo">
         </header>
     </head>
     <body>
-        <header>
-            Prato Facil
-            <img src="imagens/logo.png" alt="logo">
-        </header>
-        <h1>ADICIONAR NOVO PRATO</h1>
-        <h2>Nome:_____________</h2>
-        <h2>Foto:[Adicionar foto]</h2>
-        <h2>Descrição:_____________</h2>
-        <a href='perfil1.html'>
-            Finalizar prato
-        <a>
+        <section>
+            <h2>ADICIONAR NOVO PRATO</h2>
+            <h3>Nome:_____________</h3>
+            <h3>Foto: 
+                <form action="processar_upload.php" method="post" enctype="multipart/form-data">
+                <input type="file" name="imagem" accept="image/*"></form>
+            </h3>
+            <h3>Descrição:_____________</h3>
+            <h3>
+                <button>
+                    <a href='perfil1.html' class="link">
+                        Finalizar prato
+                    <a>
+                </button>
+            </h3>
+        </section>
         <footer>
             <a href="pedidos.html">
                 <img class="img_footer" src="imagens/pedidos.png">
