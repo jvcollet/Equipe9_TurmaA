@@ -3,48 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/pedidos.css">
     <title>Pedidos</title>
 </head>
     <body>
         <header>
             Prato Facil
-            <img src="imagens/logo.png" alt="logo">
+            <img src="imagens/logo.png" alt="logo" class="img_header">
         </header>
         <main>
-        <h3>
-            <a href="pedidos1.html">
-                Calendario
-                </a>
-        </h3>
-        <h2>
-            Horario do pedido:______________________
-        </h2>
-        <h2>
-            Nome:_________________________________
-        </h2>
-        <h2>
-            Prato 1:______________________  R$:____;_
-        </h2>
-        <h2>
-            Prato 2:__________________  R$:____;_____
-            </h2>
-        <h2>
-            Entrega esperada- data:_______ hora:_____
-        </h2>
+            <label class="label_pedidos">
+                <a href="pedidos1.html" class="a_pedidos">Calendário</a>
+                <div class="div_pedidos">
+                    <h2>S</h2>
+                    <h2>T</h2>
+                    <h2>Q</h2>
+                    <h2>Q</h2>
+                    <h2>S</h2>
+                    <h2>S</h2>
+                    <h2>D</h2>
+                </div>
+            </label> 
+            <label class="label2_pedidos">            
+                <h3 class="h3_pedidos">
+                    Próxima entrega
+                </h3>
+                <h4>
+                    Nome:______________
+                </h4>
+                <h4>
+                    Prato 1:___________________  R$:____;__
+                </h4>
+                <h4>
+                    Entrega esperada: 
+                </h4>
+                <h4>
+                Data:_______ Hora:_____
+                </h4>
+            </label> 
         </main>
         <footer>
             <a href="pedidos.html">
-                Pedidos
-                <img src="imagens/pedidos.png">
+                <img class="img_footer" src="imagens/pedidos.png">
             </a> 
             <a href="extrato.html">
-                Extrato
-                <img src="imagens/extrato.png">
+                <img class="img_footer" src="imagens/extrato.png">
             </a> 
             <a href="perfil.html">
-                Perfil
-                <img src="imagens/perfil.png">
+                <img class="img_footer" src="imagens/perfil.png">
             </a> 
-        </footer>    
+        </footer>
     </body>
 </html>

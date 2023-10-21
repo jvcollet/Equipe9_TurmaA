@@ -3,49 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/pedidos2.css">
     <title>Pedidos</title>
 </head>
     <body>
         <header>
             Prato Facil
-            <img src="imagens/logo.png" alt="logo">
+            <img src="imagens/logo.png" class="img_header" alt="logo">
         </header>
         <main>
-            <h1>
-                |Dia 1 do Mes 2|                
-            </h1>
-            <h1>
-            Pedidos:
-                </h2>
-            <h2>
-            Pedido 1:(_____________________________)
-                </h2>
-            <h2>
-            Pedido 2:(_____________________________)
-                    </h2>
-            <h2>
-            Pedido 3:(_____________________________)
-                </h2>
-            <h2>
-            Pedido 4:(_____________________________)
-                </h2>
-
-            <a href="pedidos1.html">
-                Voltar 
-            </a>
+            <section>
+                <h2 class="h2_pedidos2">Pedido 1: Parmegiana de frango</h2>
+                <input type="checkbox" id="showDescription" class="input_pedidos2">
+                <label for="showDescription" class="label_pedidos2">Mostrar descrição do prato</label>
+                <div class="div_pedidos2">
+                    Descrição:
+                    O prato "Parmegiana de Frango" é uma deliciosa receita de peito de frango empanado, coberto com um molho de tomate caseiro e queijo muçarela gratinado. Acompanha arroz branco e purê de batatas. Ideal para quem aprecia sabores robustos e uma combinação harmoniosa de texturas.
+                    Observações:
+                    1-Sem alho no molho de tomate.
+                    2-Purê de batatas sem lactose.
+                    3-Acrescentar orégano por cima do queijo antes de gratinar.
+                </div>
+            </section>
+            <section>
+                <h2 class="h2_pedidos2">Pedido 2: Hamburguer da casa</h2>
+                <input type="checkbox"  class="input_pedidos2">
+                <label class="label1_pedidos2">Sem Descrição</label>
+                <div class="div_pedidos2">
+                </div>
+            </section>
         </main>
         <footer>
             <a href="pedidos.html">
-                Pedidos
-                <img src="imagens/pedidos.png">
+                <img class="img_footer" src="imagens/pedidos.png">
             </a> 
             <a href="extrato.html">
-                Extrato
-                <img src="imagens/extrato.png">
+                <img class="img_footer" src="imagens/extrato.png">
             </a> 
             <a href="perfil.html">
-                Perfil
-                <img src="imagens/perfil.png">
+                <img class="img_footer" src="imagens/perfil.png">
             </a> 
         </footer>
     </body>

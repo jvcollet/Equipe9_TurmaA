@@ -1,13 +1,13 @@
 .figure_inicio1 {
-    position:relative;
-    left:50%;
-    margin-top: 40%;
+    position: relative;
+    top: 40%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }
 .img_inicio1 {
-    max-width: 40rem;
-    max-height: 40rem;
-    border-radius: 20rem;
+    max-width: 15rem;
+    max-height: 15rem;
+    border-radius: 5rem;
 }
 
 .body_inicio1 {
@@ -16,43 +16,45 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    height: 100vh;
     margin: 0;
 }
 .label_inicio1 {
     display: block;
-    margin: 4rem 1rem;
+    margin: 2rem 1rem;
     background-color: rgb(151, 151, 151); 
     border-radius: 5rem;
-    font-size: 4rem;
+    font-size: 2rem;
     text-align: center;
     color: black;
-    width: 40rem; 
-    height: 5rem;
+    width: 20rem; 
+    height: 3.3rem;
 }
 .input_inicio1{
-    width: 20rem; 
-    height: 90%;
-    font-size: 100%;
+    width: 10rem; 
+    height: 2.9rem;
+    font-size: 90%;
     background-color: rgb(151, 151, 151); 
 }
 .a_inicio1 {
-    font-size: 4rem;
+    display: block;
+    font-size: 2rem;
     text-align: center;
+    justify-content: center;
     color: black;
-    width: 40rem; 
-    height: 5rem;
+    width: 20rem; 
     text-decoration: none;
 }
-.h2_inicio1 {
-    position: relative;
-    align-items: center;
-    transform: translateX(-50%);
-    left:60%;
-    font-size: 4rem;
-    margin: 1rem
+.p_inicio1 {
+   font-size: 2.5rem;
+   text-align: center; /* Centraliza o texto horizontalmente */
+   margin-top: 0.1rem;
+   margin-left: auto; /* Centraliza o elemento na horizontal */
+   margin-right: auto; /* Centraliza o elemento na horizontal */
+   display: block; /* Define o elemento como bloco */
 }
 section{
-    display:flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+   display:flex;
+   flex-direction: column;
+   justify-content: space-evenly;
 }

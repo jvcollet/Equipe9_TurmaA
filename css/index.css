@@ -1,37 +1,28 @@
-
 .img_index {
-    max-width: 50rem;
-    max-height: 50rem;
-    border-radius: 10rem;
+  max-width: 20rem;
+  max-height: 20rem;
+  border-radius: 10rem;
 }
 .figure_index {
-    position: relative;
-    margin-top: 70%;
-    margin-bottom: 20%;
-    top: 80%;
-    left: 60%;
-    transform: translate(-50%, -50%);
-  }
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .a_index {
-    color: black;
-    width: 30rem; 
-    height: 20rem;
-    background-color: rgb(151, 151, 151); 
-    border-radius: 7rem; 
-    position: relative;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 5rem;
-    text-decoration: none;
-  }
-
-section{
-  justify-content: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-}
+  color: black;
+  width: 17rem; 
+  height: 7rem;
+  background-color: rgb(151, 151, 151); 
+  border-radius: 5rem; 
+  position: fixed;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  text-decoration: none;
+} 

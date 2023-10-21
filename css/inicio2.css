@@ -1,12 +1,11 @@
 .figure_inicio1 {
     position:relative;
     left:50%;
-    margin-top: 40%;
-    transform: translate(-50%, -50%);
+    top:10%;
 }
 .img_inicio2 {
-    max-width: 20rem;
-    max-height: 20rem;
+    max-width: 10rem;
+    max-height: 10rem;
     border-radius: 30rem;
 }
 
@@ -16,50 +15,48 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100rem;
+    height: 100vh;
     margin: 0;
 }
 
 .label_inicio2 {
     display: block;
-    margin: 4rem 1rem;
+    margin: 1rem;
     background-color: rgb(151, 151, 151); 
     border-radius: 5rem;
-    font-size: 4rem;
+    font-size: 2rem;
     text-align: center;
     color: black;
-    width: 40rem; 
-    height: 5rem;
+    width: 20rem; 
+    height: 3.3rem;   
 }
 
-.input_inicio2 {
-    width: 20rem; 
-    height: 90%;
-    font-size: 100%;
+.input_inicio2{
+    width: 10rem; 
+    height: 2.9rem;
+    font-size: 90%;
     background-color: rgb(151, 151, 151); 
 }
 
 .a_inicio2 {
-    font-size: 4rem;
+    display: block;
+    font-size: 2rem;
     text-align: center;
+    justify-content: center;
     color: black;
-    width: 40rem; 
-    height: 5rem;
+    width: 20rem; 
     text-decoration: none;
 }
 
-.h2_inicio2 {
+.p_inicio2 {
     position: relative;
     align-items: center;
-    transform: translateX(-50%);
-    left:60%;
-    font-size: 4rem;
-    margin: 1rem
+    font-size: 2.5rem;
+    margin-top: 0.1rem;
 }
-
 section{
     display:flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    margin-top: 5rem;
+    align-items: center;
+    
 }
