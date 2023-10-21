@@ -55,6 +55,16 @@ div{
     text-decoration: none;
 }
 
+table {
+    font-size: 18px;
+    border-collapse: collapse; 
+  }
+  
+  th, td {
+    border: 1px solid #000; 
+    padding: 8px; 
+  }
+
 
 footer {
     display: flex;

@@ -28,7 +28,9 @@ main{
     justify-content: space-between;
     align-items: center;
     position: relative;
-    height: 50rem;
+    height: 40rem;
+    margin-top: 4rem; 
+
 }
 
 h2{
@@ -42,7 +44,16 @@ h2{
 div{
     flex:1
 }
-
+table {
+    font-size: 18px;
+    border-collapse: collapse; 
+  }
+  
+  th, td {
+    border: 1px solid #000; 
+    padding: 8px; 
+  }
+  
 
 .a_inicio1 {
     font-size: 2rem;
