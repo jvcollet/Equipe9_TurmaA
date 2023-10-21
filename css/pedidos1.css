@@ -10,9 +10,16 @@ header{
 
 h1{
     position:absolute;
-    left:25%;
-    transform: translateX(-50%);
-    font-size: 2.5rem;
+    left:10%;
+    font-size: 2rem;
+}
+
+.img_header {
+    width: 20%;
+    max-width: 33rem;
+    max-height: 33rem;
+    position:relative;
+    right:0%;
 }
 h2{
     position:relative;
