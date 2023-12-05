@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/extrato2.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Josefin+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+        <script src="js/extrato2.js"></script>
+        <title>Extrato</title>
+    </head>
+    <body>
+        <header>
+            <h1>Extrato</h1>
+            <img class="img_header" src="imagens/logo.png" alt="logo">
+        </header>
+        <main>
+            <div class="div2_extrato2">
+                <table id="tabela_ingredientes">
+                    <tr>
+                      <th>Ingredientes</th>
+                      <th>Custo de Compra</th>
+                    </tr>
+                </table>
+            </div>
+            <div class="div_extrato2">
+                <input type="text" id="input_ingredientes" placeholder="Nome do ingrediente">
+                <input type="number" id="input_custo" placeholder="Custo de Compra">
+                <button id="button_adicionar">Adicionar Novo Ingrediente</button>
+            </div>
+            <table id="table1_extrato2">
+                <tr>
+                    <th>Custo dado ao Prato</th>
+                    <td id='custo_dado_prato' contenteditable="true"></td>
+                </tr>
+            </table>
+            <div class="div1_extrato2">
+                <button id="calcular_extrato">Calcular Balanço</button> 
+            </div>
+            <div id="resumo_extrato">
+                <table>
+                    <tr>
+                        <th>Despesas</th>
+                        <th>Custo do Prato</th>
+                        <th>Lucro</th>
+                    </tr>
+                    <tr>
+                        <td id="total_despesas">R$ 0,00</td>
+                        <td id="custo_prato">R$ 0,00</td>
+                        <td id="lucro_prato">R$ 0,00</td>
+                    </tr>
+                </table>
+            </div>
+           </div>
+                <h2>
+                    <a class="finalizar_prato" href="extrato1.html">
+                        Finalizar prato
+                    </a>
+                </h2>
+            </div>
+        </main>
+        <footer>
+            <a href="pedidos.html">
+                <img class='img_footer' src="imagens/pedidos.png" alt=".">
+            </a> 
+            <a href="extrato.html">
+                <img class="img_footer" src="imagens/extrato.png" alt=".">
+            </a> 
+            <a href="perfil.html">
+                <img class="img_footer" src="imagens/perfil.png" alt=".">
+            </a>  
+        </footer>
+    </body>
+</html>
